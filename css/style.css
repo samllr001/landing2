@@ -1,0 +1,395 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+* {
+   padding: 0;  
+   margin: 0;
+}
+section {
+    padding: 0 calc(10.6vw - 16px);
+}
+
+section.Hello {
+    background-image: url(../img/html_css_js\ 1.png);
+    background-repeat: no-repeat;
+    background-position: top calc(4.9vw + 59px) right calc(6.1vw - 20px);
+    background-size: calc(23.9vw + 89px);
+}
+.Logo {
+ margin-top: 37px;
+ height: calc(1.2vw + 25px);
+ margin-bottom: 85px;
+}
+
+.courseData {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: calc(0.6vw + 14px);
+    line-height: 140%; 
+    gap: 30px 130px;
+
+
+
+    
+}
+
+
+.courseData .value {
+    font-weight: 700;
+   
+}
+
+body {
+    font-family: TT Hoves, sans-serif;
+}
+
+h1 {
+    font-family: 'Chava', sans-serif;
+    margin-top: 76px;
+    font-weight: 400;
+    font-size: calc(4.2vw + 26px);
+    line-height: 100%;
+}
+ 
+p {
+margin-top: 40px;
+font-weight: 300;
+font-size: calc(1vw + 14px);
+line-height: 140%;
+}
+
+.buttons {
+margin-top: 20px;
+
+display: flex;
+gap: 20px 30px;
+flex-wrap: wrap;
+}
+
+button.purple {
+width: 328px;
+height: 61px;
+border-radius: 12px;
+background: #6E3ABA;
+padding: 20px 0;
+
+font-weight: 500;
+font-size: 18px;
+line-height: 118%;
+color: #FFFFFF;
+border: 0;
+
+}
+
+button.white {
+    width: 328px;
+    height: 61px;
+    border-radius: 12px;
+    border: 1px solid #6E3ABA ;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 118%;
+    color: #6E3ABA ;
+}
+
+
+ 
+h2 {
+    font-weight: 500;
+    font-size: calc(2.7vw + 24px);
+    line-height: 117%;
+    text-transform: uppercase;
+    /* margin-top: calc(11vw + 18px); */
+    margin-bottom: calc(5.25vw + 19px);
+    
+}
+
+.students {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 50px 70px;
+}
+
+.student {
+    flex-basis: 450px;
+    flex-grow: 1;
+}
+
+.student img {
+    width: 210px;
+}
+
+.student h4 {
+    font-size: calc(1vw + 14px);
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.student p {
+    font-weight: 400;
+
+}
+    
+
+.prices {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px 70px;
+}
+
+.price {
+    flex-basis: 450px;
+    flex-grow: 1;
+    margin-top: 90px;
+}
+
+.price h4 {
+    font-size: calc(1vw + 14px);
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.price p {
+    font-weight: 400;
+}
+
+
+.purplebg {
+    background: #6E3ABA;
+    padding-top: calc(4.4vw + 23px);
+    padding-bottom: calc(4.1vw + 5px);
+}
+
+h3 {
+    color: #FFFFFF;
+    font-size: calc(2vw + 26px);
+    font-weight: 700;
+    line-height: 117%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.timer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    text-align: center;
+    color: #2F1D4E;
+    margin-top: calc(4.1vw + 5px);
+    margin-bottom: calc(4.1vw + 5px);
+}
+
+.num {
+    font-family: Chava;
+    font-size: calc(12vw + 12px);
+    line-height: 107%;  
+}
+
+.desc {   
+   font-size: calc(2vw + 3px);
+   font-weight: 500;
+   line-height: 117%;
+   text-transform: uppercase;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+}
+
+.vebDesc h2 {
+font-size: 58px;
+font-weight: 500;
+line-height: 118%;
+text-align: left;
+margin-top: 0%;
+margin-left: 19px;
+margin-bottom: 0%;
+
+}
+
+.vebDesc p {
+font-size: 27px;
+font-weight: 400;
+line-height: 135%;
+text-align: left;
+margin-left: 19px;
+}
+
+.vebs {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
+.courseProgram_wrapper {
+    border: 1px solid black;
+    position: relative;
+    padding: calc(4.4vw + 23px) calc(4.9vw + 20px) calc(1.3vw + 18px);
+}
+
+
+.courseProgram_wrapper img {
+    width: 6vw;
+    position: absolute;
+    right: -3px;
+    top: -3px;
+}
+
+.courseProgram_wrapper h2 {
+    margin-bottom: calc(1.8vw + 17px);
+}
+
+.courseProgram_wrapper ol {
+    list-style: none;
+}
+
+.courseProgram_wrapper ol li {
+    padding: 24px 0;
+    border-bottom: 1px solid #A1A1A1;
+    font-size: calc(0.6vw + 14px);
+}
+
+.courseProgram_wrapper .purple2 {
+    display: block;
+    margin: 34px auto 0;
+}
+
+.courseProgram .purple2.btnMob {
+    display: none;
+}
+
+@media (max-width:545px) {
+  .courseProgram_wrapper .purple2 {
+    display: none;
+  } 
+  .courseProgram .purple2.btnMob {
+    display: block;
+    margin: 34px auto 0;
+  }
+}
+
+.feedback h2 {
+margin-bottom: calc(2.1vw + 130px);
+}
+
+.feedback_cards {
+display: flex;
+gap: 0 30px;
+}
+
+.feedback_card {
+    padding: 50px 20px 38px;
+    background-color: #F0F7FD;
+    flex-basis: 33%;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.feedback_card_top img {
+margin-bottom: 12px;
+}
+
+.feedback_card_top p {
+    font-size: 21px;
+}
+
+.feedback_card_bottom {
+    display: flex;
+    gap: 12px;
+}
+
+.feedback_card_bottom img {
+    border-radius: 50px;
+    width: 72px;
+    height: 72px;
+}
+
+.feedback_card_bottom p {
+    font-size: 21px;
+}
+
+.feedback h2 {
+font-size: 58px;
+font-weight: 500;
+line-height: 118%;
+}
+
+.tehnikum {
+   display: flex;
+}
+
+.tehnikum h2 {
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 118%;
+}
+
+.tehnikum img {
+    width: 110px;
+    height: 110px;
+    top: 148px;
+    left: 121px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.desc_tehnikum p {
+font-size: 27px;
+font-weight: 600;
+line-height: 140%;
+text-transform: uppercase;
+width: 426px;
+margin-right: 97px;
+}
+
+.people_tehnikum h4 {
+font-size: 58px;
+font-weight: 700;
+line-height: 118%;
+padding-right: 54px;
+}
+
+.people_tehnikum p {
+font-size: 21px;
+font-weight: 400;
+line-height: 140%;
+}
+
+.dir_tehnikum h4 {
+font-size: 58px;
+font-weight: 700;
+line-height: 68.32px;
+}
+
+.dir_tehnikum p {
+font-size: 21px;
+font-weight: 400;
+line-height: 140%;
+}
+
+.people_tehnikum {
+    margin-bottom: 40px;
+
+}
+
+.win_tehnikum {
+    margin-bottom: 40px;
+}
