@@ -1,3 +1,9 @@
+@font-face {
+    font-family: chava;
+    src: url(../Chava/Chava-Regular.ttf);
+}
+
+
 html {
     scroll-behavior: smooth;
 }
@@ -5,9 +11,10 @@ html {
 
 
 * {
-   padding: 0;  
-   margin: 0;
+    padding: 0;
+    margin: 0;
 }
+
 section {
     padding: 0 calc(10.6vw - 16px);
 }
@@ -18,10 +25,11 @@ section.Hello {
     background-position: top calc(4.9vw + 59px) right calc(6.1vw - 20px);
     background-size: calc(23.9vw + 89px);
 }
+
 .Logo {
- margin-top: 37px;
- height: calc(1.2vw + 25px);
- margin-bottom: 85px;
+    margin-top: 37px;
+    height: calc(1.2vw + 25px);
+    margin-bottom: 85px;
 }
 
 .courseData {
@@ -29,18 +37,18 @@ section.Hello {
     flex-direction: row;
     flex-wrap: wrap;
     font-size: calc(0.6vw + 14px);
-    line-height: 140%; 
+    line-height: 140%;
     gap: 30px 130px;
 
 
 
-    
+
 }
 
 
 .courseData .value {
     font-weight: 700;
-   
+
 }
 
 body {
@@ -54,34 +62,34 @@ h1 {
     font-size: calc(4.2vw + 26px);
     line-height: 100%;
 }
- 
+
 p {
-margin-top: 40px;
-font-weight: 300;
-font-size: calc(1vw + 14px);
-line-height: 140%;
+    margin-top: 40px;
+    font-weight: 300;
+    font-size: calc(1vw + 14px);
+    line-height: 140%;
 }
 
 .buttons {
-margin-top: 20px;
+    margin-top: 20px;
 
-display: flex;
-gap: 20px 30px;
-flex-wrap: wrap;
+    display: flex;
+    gap: 20px 30px;
+    flex-wrap: wrap;
 }
 
 button.purple {
-width: 328px;
-height: 61px;
-border-radius: 12px;
-background: #6E3ABA;
-padding: 20px 0;
+    width: 328px;
+    height: 61px;
+    border-radius: 12px;
+    background: #6E3ABA;
+    padding: 20px 0;
 
-font-weight: 500;
-font-size: 18px;
-line-height: 118%;
-color: #FFFFFF;
-border: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 118%;
+    color: #FFFFFF;
+    border: 0;
 
 }
 
@@ -89,16 +97,16 @@ button.white {
     width: 328px;
     height: 61px;
     border-radius: 12px;
-    border: 1px solid #6E3ABA ;
+    border: 1px solid #6E3ABA;
 
     font-weight: 500;
     font-size: 18px;
     line-height: 118%;
-    color: #6E3ABA ;
+    color: #6E3ABA;
 }
 
 
- 
+
 h2 {
     font-weight: 500;
     font-size: calc(2.7vw + 24px);
@@ -106,13 +114,13 @@ h2 {
     text-transform: uppercase;
     /* margin-top: calc(11vw + 18px); */
     margin-bottom: calc(5.25vw + 19px);
-    
+
 }
 
 .students {
-   display: flex;
-   flex-wrap: wrap;
-   gap: 50px 70px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px 70px;
 }
 
 .student {
@@ -139,7 +147,7 @@ h2 {
     font-weight: 400;
 
 }
-    
+
 
 .prices {
     display: flex;
@@ -195,16 +203,16 @@ h3 {
 }
 
 .num {
-    font-family: Chava;
+    font-family: chava;
     font-size: calc(12vw + 12px);
-    line-height: 107%;  
+    line-height: 107%;
 }
 
-.desc {   
-   font-size: calc(2vw + 3px);
-   font-weight: 500;
-   line-height: 117%;
-   text-transform: uppercase;
+.desc {
+    font-size: calc(2vw + 3px);
+    font-weight: 500;
+    line-height: 117%;
+    text-transform: uppercase;
 }
 
 .center {
@@ -213,22 +221,22 @@ h3 {
 }
 
 .vebDesc h2 {
-font-size: 58px;
-font-weight: 500;
-line-height: 118%;
-text-align: left;
-margin-top: 0%;
-margin-left: 19px;
-margin-bottom: 0%;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 118%;
+    text-align: left;
+    margin-top: 0%;
+    margin-left: 19px;
+    margin-bottom: 0%;
 
 }
 
 .vebDesc p {
-font-size: 27px;
-font-weight: 400;
-line-height: 135%;
-text-align: left;
-margin-left: 19px;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 135%;
+    text-align: left;
+    margin-left: 19px;
 }
 
 .vebs {
@@ -275,22 +283,23 @@ margin-left: 19px;
 }
 
 @media (max-width:545px) {
-  .courseProgram_wrapper .purple2 {
-    display: none;
-  } 
-  .courseProgram .purple2.btnMob {
-    display: block;
-    margin: 34px auto 0;
-  }
+    .courseProgram_wrapper .purple2 {
+        display: none;
+    }
+
+    .courseProgram .purple2.btnMob {
+        display: block;
+        margin: 34px auto 0;
+    }
 }
 
 .feedback h2 {
-margin-bottom: calc(2.1vw + 130px);
+    margin-bottom: calc(2.1vw + 130px);
 }
 
 .feedback_cards {
-display: flex;
-gap: 0 30px;
+    display: flex;
+    gap: 0 30px;
 }
 
 .feedback_card {
@@ -304,7 +313,7 @@ gap: 0 30px;
 }
 
 .feedback_card_top img {
-margin-bottom: 12px;
+    margin-bottom: 12px;
 }
 
 .feedback_card_top p {
@@ -327,13 +336,13 @@ margin-bottom: 12px;
 }
 
 .feedback h2 {
-font-size: 58px;
-font-weight: 500;
-line-height: 118%;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 118%;
 }
 
 .tehnikum {
-   display: flex;
+    display: flex;
 }
 
 .tehnikum h2 {
@@ -352,37 +361,37 @@ line-height: 118%;
 }
 
 .desc_tehnikum p {
-font-size: 27px;
-font-weight: 600;
-line-height: 140%;
-text-transform: uppercase;
-width: 426px;
-margin-right: 97px;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+    width: 426px;
+    margin-right: 97px;
 }
 
 .people_tehnikum h4 {
-font-size: 58px;
-font-weight: 700;
-line-height: 118%;
-padding-right: 54px;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 118%;
+    padding-right: 54px;
 }
 
 .people_tehnikum p {
-font-size: 21px;
-font-weight: 400;
-line-height: 140%;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 140%;
 }
 
 .dir_tehnikum h4 {
-font-size: 58px;
-font-weight: 700;
-line-height: 68.32px;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 68.32px;
 }
 
 .dir_tehnikum p {
-font-size: 21px;
-font-weight: 400;
-line-height: 140%;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 140%;
 }
 
 .people_tehnikum {
@@ -392,4 +401,74 @@ line-height: 140%;
 
 .win_tehnikum {
     margin-bottom: 40px;
+}
+
+.site13 h2 {
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 118%;
+}
+
+.diploma p {
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 14px;
+    margin-bottom: 24px;
+}
+
+.diploma_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.site14 {
+    background-color: #222222;
+}
+
+.signInfo {
+    margin-top: 80px;
+    font-size: 68px;
+    font-weight: 500;
+    line-height: 118%;
+    color: #FFFFFF;
+    width: 424px;
+    height: 272px;
+    text-align: start;
+    margin-bottom: 79px;
+}
+
+.choice img {
+    width: 28px;
+}
+
+.choice p {
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.sign_wrapper {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    display: flex;
+}
+
+.choice {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 24px;
+}
+
+.choiceLeft {
+    margin-right: 140px;
+
+}
+
+.diplomaPhoto {
+    display: flex;
+    gap: 26px;
 }
