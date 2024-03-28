@@ -472,3 +472,71 @@ h3 {
     display: flex;
     gap: 26px;
 }
+
+.timer_wrapper {
+
+    padding: 0;
+    margin-top: calc(11vw + 18px);
+    padding-top: calc(4.4vw + 23px);
+    background-color: #6E3ABA;
+}
+
+.discount_title {
+    font-family: 'TT Hoves';
+    font-size: calc(1.9vw + 26px);
+    font-weight: 700;
+    line-height: 61.26px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.timer_blocks {
+    margin-top: calc(4vw + 4px);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: calc(6.4vw + 8px);
+}
+
+.blocks {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: calc(18vw + 19px);
+}
+
+.blocks_hours {
+    font-family: 'Chava';
+    font-size: calc(12vw + 12px);
+    line-height: 107%;
+    text-align: left;
+    color: #2F1D4E;
+}
+
+.blocks_date {
+    font-family: 'TT Hoves';
+    font-size: calc(1.8vw + 3px);
+    font-weight: 500;
+    line-height: 31.81px;
+    text-align: center;
+    color: #2F1D4E;
+}
+
+.whiteCenter {
+    margin-left: calc(53vw - 175px);
+    margin-top: calc(4vw + 5px);
+    margin-bottom: calc(5.1vw + 21px);
+    width: calc(1vw + 329px);
+    padding: 20px 0px 20px 0px;
+    gap: 10px;
+    border-radius: 12px;
+    font-family: 'TT Hoves';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.2px;
+    background-color: #FFFFFF;
+    background: none white;
+    border: 0;
+    color: #6E3ABA;
+}
