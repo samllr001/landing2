@@ -64,7 +64,6 @@ h1 {
 }
 
 p {
-    margin-top: 40px;
     font-weight: 300;
     font-size: calc(1vw + 14px);
     line-height: 140%;
@@ -539,4 +538,157 @@ h3 {
     background: none white;
     border: 0;
     color: #6E3ABA;
+}
+
+
+.popUpForm {
+    background-color: rgba(74, 63, 63, 0.227);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popUpForm form {
+    padding: 20px 60px;
+    background-color: white;
+    display: none;
+}
+
+.popUpForm input {
+    display: block;
+    margin-top: 10px;
+}
+
+.popUpForm label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.close {
+    text-align: right;
+}
+
+.send {
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color:purple ;
+    color: white ;
+    border: 2px solid purple ;
+}
+
+footer {
+    background-color: #222222;
+    display: flex;
+
+    padding-left: 120px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-right: 91px;
+    justify-content: space-between;
+}
+
+.footer_left h2 {
+    margin-top: 0;
+    font-size: 58px;
+    color: #FFFFFF;
+    max-width: 424px;
+    margin-bottom: 79px;
+}
+
+.footer_text {
+    display: flex;
+    gap: 0;
+    margin-bottom: 24px;
+}
+
+.footer_text p {
+    color: #FFFFFF;
+    padding-left: 20px;
+}
+
+.footer_right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_right_bg {
+    background-color: #FFFFFF;
+    padding: 60px 60px 50px;
+    border-radius: 12px;
+    text-align: center;
+    width: 475px;
+    height: 600px;
+    position: relative;
+}
+
+.sale {
+    position: absolute;
+    top: -10%;
+    left: -10%;
+    background-color: #6E3ABA;
+    border-radius: 50%;
+    width: 159px;
+    height: 159px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 63px;
+}
+
+
+.footer_right_bg .subtittle {
+    font-size: 21px;
+    margin-bottom: 30px;
+}
+
+.footer_right_bg h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #222222;
+    margin-bottom: 10px;
+    font-weight: 700;
+    margin-top: 60px;
+}
+
+.footer_right_bg form {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    max-width: 338px;
+    margin: 0 auto;
+}
+
+.footer_right_bg form input {
+    border: none;
+    border-bottom: 1px solid #A1A1A1;
+}
+
+.footer_right_bg .purple3 {
+    width: Fixed (328px)px;
+    height: Hug (61px)px;
+    top: 354px;
+    left: 74px;
+    padding: 20px 0px 20px 0px;
+    gap: 10px;
+    border-radius: 12px;  
+    background-color: #6E3ABA; 
+    border: 1px solid#6E3ABA ; 
+
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 118%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 41px;
 }

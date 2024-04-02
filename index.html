@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.cdnfonts.com/css/chava" rel="stylesheet">
     <link rel="stylesheet" href="./TT Hoves Pro Trial 3-000/">
+    <link rel="stylesheet" href="./splide-4.1.3/dist/css/splide-core.min.css">
 
 </head>
 
@@ -61,8 +62,27 @@
         </div>
 
 
-        <div id="Testoviy_div" style="margin-top: 300px;"></div>
+        <div class="popUpForm">
+            <form action="">
+                <div class="close">x</div>
+                <label for="">
+                    Введите своё имя
+                    <input type="text">
+                </label>
+                <label for="">
+                    Введите свою фамилию
+                    <input type="text">
+                </label>
+                <label for="">
+                    Ваш номер телефона
+                    <input type="text">
+                </label>
+                <button class="send">Отправить</button>
+            </form>
+        </div>
 
+
+        <div id="Testoviy_div" style="margin-top: 300px;"></div>
 
         <style>
             a {
@@ -79,9 +99,6 @@
 
     </section>
 
-
-    <script src="./js/script.js"></script>
-</body>
 
 
 
@@ -353,43 +370,7 @@
     </div>
 </section>
 
-<section class="site14">
-    <div class="sign_wrapper">
-        <div class="leftSign">
-            <div class="signInfo_wrapper">
-                <h3 class="signInfo">запишись
-                    на курс
-                    прямо
-                    сейчас!</h3>
 
-            </div>
-            <div class="choiceLeft">
-                <div class="choice">
-                    <img src="./img/icon_python.svg" alt="">
-                    <p>
-                        HTML, CSS, JS
-                    </p>
-                </div>
-                <div class="choice">
-                    <img src="./img/icon_game_bot.svg" alt="">
-                    <p>
-                        Разработка онлайн игр
-                    </p>
-                </div>
-                <div class="choice">
-                    <img src="./img/icon_database.svg" alt="">
-                    <p>
-                        Введение в Bootstrap и Github
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <div class="rightSign">
-            <img src="./img/заявка.png" alt="">
-        </div>
-    </div>
-</section>
 
 <section class="timer_wrapper">
     <h3 class="discount_title">10% скидка действует</h3>
@@ -411,7 +392,7 @@
             </div>
         </div>
         <div class="blocks">
-            <div class="blocks_hours">
+    <div class="blocks_hours">
                 00
             </div>
             <div class="blocks_date">
@@ -421,3 +402,81 @@
     </div>
     <button class="whiteCenter">Воспользоваться скидкой</button>
 </section>
+
+<section class="splide" aria-label="Splide Basic HTML Example">
+    <div class="splide__track">
+          <ul class="splide__list">
+              <li class="splide__slide"><img src="./img/icon_game_bot.svg" alt=""></li>
+              <li class="splide__slide">Slide 02</li>
+              <li class="splide__slide">Slide 03</li>
+          </ul>
+    </div>
+  </section>
+
+  <script>
+    document.addEventListener( 'DOMContentLoaded', function() {
+    var splide = new Splide( '.splide',{
+     autoplay:true,
+     interval:500,
+    } );
+      splide.mount();
+    } );
+  </script>
+
+<footer>
+    <div class="footer_left">
+        <h2>запишись на курс прямо сейчас!</h2>
+        <div class="footer_text">
+            <img src="./img/icon_python.svg" alt="">
+            <p>
+                HTML,CSS, JS
+            </p>
+        </div>
+        <div class="footer_text">
+            <img src="./img/icon_game_bot.svg" alt="">
+            <p>
+                Разработка онлайн игр
+            </p>
+        </div>
+        <div class="footer_text">
+            <img src="./img/icon_database.svg" alt="">
+            <p>
+                Введение в Bootstrap и Github
+            </p>
+        </div>
+    </div>
+    
+    <div class="footer_right">
+        <div class="footer_right_bg">
+            <div class="sale">
+                10%
+            </div>
+                <h3>оставь заявку</h3>
+                <p class="subtittle">
+                    начало обучения: 1 декабря
+                </p>
+                <form action="">
+                    <input type="text" placeholder="Имя">
+                    <input type="text" placeholder="Фамилия">
+                    <input type="tel" placeholder="+998">
+                    <button class="purple3" type="submit" value="">Записаться на курс</button>
+                </form>
+                <p>Остались вопросы?</p>
+                <p>Звони: +998 33 135 33 55</p>
+                <p>Наши консультанты доступны каждый день </p>
+                <p class="bc">с 10:00 до 22:00.</p>
+         </div>
+    </div> 
+</footer>
+
+
+
+
+
+
+
+
+<script src="./splide-4.1.3/dist/js/splide.min.js"></script>  
+<script src="./js/script.js"></script>
+</body>
+</html>    
